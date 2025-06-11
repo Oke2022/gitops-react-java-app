@@ -3,7 +3,7 @@ replicaCount: 2
 image:
   repository: okejoshua/frontend
   tag: "v1.1"
-  pullPolicy: IfNotPresent
+  pullPolicy: Always 
 
 serviceAccount:
   # Specifies whether a service account should be created
