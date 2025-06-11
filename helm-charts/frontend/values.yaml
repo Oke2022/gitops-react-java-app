@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: okejoshua/frontend
-  tag: "latest"
+  tag: "v1.1"
   pullPolicy: IfNotPresent
 
 serviceAccount:
